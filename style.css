@@ -5,23 +5,21 @@
 }
 
 
-#mainDiv {
+#mainContainerDiv {
     display: flex;
     width: 100vw;
     height: 100vh;
 }
 
-.rowdiv {
+.divRow {
     display: flex;
     flex: 1;
     flex-direction: column;
-    border-style: solid;
     
 }
 
-.rowdiv div {
+.divRow div {
     flex-direction: row;
     flex: 1;
-    border-style: solid;
 
 }
