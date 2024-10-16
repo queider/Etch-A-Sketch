@@ -29,13 +29,11 @@
     align-items: center;
     justify-content: left;
     height: 70px;
-    padding-left: 10px;
 
 
 }
 
 
-/* CSS */
 #ui button {
   background-color: #fbeee0;
   border: 2px solid #422800;
@@ -53,6 +51,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  margin-left: 10px;
 }
 
 #ui button:hover {
@@ -69,4 +68,22 @@
     min-width: 120px;
     padding: 0 25px;
   }
+}
+
+#ui div{
+  flex: 1;
+}
+
+#ui div h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+}
+
+#ui div h2 {
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+  font-size: smaller;
+  margin-right: 10px;
 }
